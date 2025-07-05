@@ -36,7 +36,7 @@ const Clock: React.FC = () => {
         <ClockIcon className="w-8 h-8 text-blue-400 mr-3" />
         <h2 className="text-2xl font-semibold text-white">Current Time</h2>
       </div>
-      
+      Clock
       <div className="text-center space-y-4">
         <div className="text-6xl md:text-7xl font-mono font-bold text-white tracking-wider">
           {formatClockTime(currentTime)}
